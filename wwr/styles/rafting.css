@@ -32,6 +32,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    color: var(--secondary-color)
 }
 
 .social media a {
@@ -63,5 +64,10 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.hero article {
+    position: absolute;
+    color: var(--accent2-color)
 }
 
