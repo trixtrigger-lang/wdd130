@@ -35,9 +35,6 @@ nav, p, section, article {
     color: var(--secondary-color)
 }
 
-.social media a {
-    text-decoration: none;
-}
 
 .hero {
     position: relative;
@@ -71,3 +68,14 @@ h1 {
     color: var(--accent2-color)
 }
 
+.socialmedia a {
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
