@@ -92,7 +92,7 @@ h1, h2 {
     left: 50%;
     width: 70%;
     transform: translateX(-50%);
-    background: white;
+    background: var(--secondary-color);
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -113,7 +113,7 @@ h1, h2 {
 
 .history {
     padding: 2rem;
-    background-color: white;
+    background-color: var(--secondary-color);
     text-align: center;
 }
 
@@ -130,21 +130,13 @@ h1, h2 {
     grid-template-columns: 1fr auto 1fr;
     gap: 20px;
     align-items: center;
-    margin-top: 20px;
 }
 
 .history-grid p {
-    background-color: white;
-    border-radius: 10px;
+    background-color: var(--secondary-color);
     border-radius: 10px;
 }
 
-.history-grid img {
-    width: 180px;
-    background: #055a05;
-    padding: 20px;
-    border-radius: 8px;
-}
 
 .adventures {
     margin-bottom: 20px;
