@@ -30,7 +30,7 @@ header {
     align-items: center;
     padding: 1rem 2rem;
     background-color: var(--accent2-color);
-    border-bottom: 3px solid #1b4d7a;
+    border-bottom: 3px solid var(--accent1-color);
 }
 
 header img {
@@ -45,7 +45,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #1b4d7a;
+    color: var(--accent1-color);
     font-weight: 600;
     font-size: 1.1rem;
 }
@@ -79,7 +79,7 @@ h1, h2 {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.6);
+    background: var(--accent1-color);
     color: #fff;
     padding: 0.5rem 1rem;
     font-size: 2rem;
@@ -87,6 +87,7 @@ h1, h2 {
 }
 
 .hero article {
+    color: var(--accent1-color);
     position: absolute;
     bottom: 10%;
     left: 50%;
@@ -98,7 +99,6 @@ h1, h2 {
     display: flex;
     gap: 20px;
     align-items: center;
-    box-shadow: 0 0 10px #0003
 }
 
 .hero article img {
@@ -112,13 +112,14 @@ h1, h2 {
 
 
 .history {
+    color: var(--accent1-color);
     padding: 2rem;
     background-color: var(--secondary-color);
     text-align: center;
 }
 
 .history h2 {
-    color: #1b4d7a;
+    color: var(--accent1-color);
     margin-bottom: 1rem;
     font-size: 2rem;
     text-align: center;
@@ -147,7 +148,7 @@ h1, h2 {
 .adventures h2 {
     text-align: center;
     font-size: 2rem;
-    color: #1b4d7a;
+    color: var(--accent1-color);
     margin-bottom: 1.5rem;
 }
 
@@ -172,7 +173,7 @@ figure img {
 figcaption {
     margin-top: 0.5rem;
     font-weight: bold;
-    color: #1b4d7a;
+    color: var(--accent1-color);
 }
     
 
@@ -182,7 +183,7 @@ footer {
     align-items: center;
     padding: 20px;
     background-color: var(--secondary-color);
-    border-top: 3px solid #1b4d7a;
+    border-top: 3px solid var(--accent1-color);
     margin-top: 2rem;
 }
 
