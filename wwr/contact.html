@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us-Chosen Waves</title>
+    <title>Contact Us - Chosen Waves</title>
     <meta name="description" content="A water rafting company with plenty of experiences and fun. ">
     <meta name="author" content="Paul Ethan">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -38,52 +38,52 @@
 
         <section class="employees">
             <h2>Meet Our Team</h2>
+        </section>
 
-            <section class="employee-grid">
-                <figure>
-                    <img src="images/dave.jpg" alt="River Guide">
-                    <figcaption><strong>Dave Johnson</strong> - Lead Guide</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/george.jpg" alt="Customer Support">
-                    <figcaption><strong>George Nash</strong> - Guest Coordinator</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/ross.jpg" alt="Safety Specialist">
-                    <figcaption><strong>Ross Jenkins</strong> - Safety Specialist</figcaption>
-                </figure>
-                </div>
-            </section>
+        <section class="employee-grid">
+            <h2>Employees of the year</h2>
+            <figure>
+                <img src="images/dave.jpg" alt="River Guide">
+                <figcaption><strong>Dave Johnson</strong> - Lead Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/george.jpg" alt="Customer Support">
+                <figcaption><strong>George Nash</strong> - Guest Coordinator</figcaption>
+            </figure>
+            <figure>
+                <img src="images/ross.jpg" alt="Safety Specialist">
+                <figcaption><strong>Ross Jenkins</strong> - Safety Specialist</figcaption>
+            </figure>
+        </section>
 
-            <section class="contact-form">
-                <h2>Send Us a Message</h2>
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
 
-                <form action="#" method="post">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
 
-                    <label for="fullname">Full Name</label>
-                    <input type="text" id="fullname" name="fullname" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
 
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required>
+                <fieldset class="message-purpose">
+                    <legend>Purpose of Message</legend>
 
-                    <fieldset class="message-purpose">
-                        <legend>Purpose of Message</legend>
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                </fieldset>
 
-                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
-                    </fieldset>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                <label class="checkbox">
+                    <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
+                </label>
 
-                    <label class="checkbox">
-                        <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
-                    </label>
-
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
-            </section>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
     </main>
 
     <footer>
