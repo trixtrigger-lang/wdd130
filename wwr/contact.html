@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us-Chosen Waves</title>
+    <meta name="description" content="A water rafting company with plenty of experiences and fun. ">
+    <meta name="author" content="Paul Ethan">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="white water rafting logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main class="contact-container">
+        <section class="company-info">
+            <h1>Contact Us</h1>
+
+            <p><strong>Address:</strong> 123 River Way, Rapids Town, CO 80123</p>
+            <p><strong>Phone number:</strong> +1 (555) 123-4567</p>
+            <p><strong>Email:</strong> info@raftco.com</p>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0862296250026!2d-122.41941508468195!3d37.7749297797598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c2fdaa933%3A0xfbdf98b9f89d8fdb!2sSan+Francisco!5e0!3m2!1sen!2sus!4v0000000000"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+
+            <section class="employee-grid">
+                <figure>
+                    <img src="images/dave.jpg" alt="River Guide">
+                    <figcaption><strong>Dave Johnson</strong> - Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/george.jpg" alt="Customer Support">
+                    <figcaption><strong>George Nash</strong> - Guest Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ross.jpg" alt="Safety Specialist">
+                    <figcaption><strong>Ross Jenkins</strong> - Safety Specialist</figcaption>
+                </figure>
+                </div>
+            </section>
+
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+
+                <form action="#" method="post">
+
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset class="message-purpose">
+                        <legend>Purpose of Message</legend>
+
+                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+    </main>
+
+    <footer>
+        <p>©️2025🌊 Wavy Splash 🌊 Paul Ethan</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="Linkedin Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
