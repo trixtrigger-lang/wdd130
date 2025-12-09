@@ -13,12 +13,9 @@
     box-sizing: border-box;
 }
 
-body, h1, h2 {
+body {
     font-family: var(--body-font);
     line-height: 1.6;
-}
-
-body {
     color: var(--accent1-color);
 }
 
@@ -285,6 +282,7 @@ main {
 }
 
 h1, h2{
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
